@@ -1,0 +1,61 @@
+.content_main{
+    padding-top: 80px;
+}
+
+.content_title_section{
+    font-family: 'Teko', sans-serif;
+    background: #03040A;
+    width: 100%;
+    padding: 8% 0;
+    color: white;
+    text-align: center;
+    font-size: 45px;
+}
+.container_cards{
+    padding:  80px 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.container_card{
+    width: 353px;
+    height: 353px;
+    position: relative;
+    border: 2px solid white;
+    padding: 2%;
+    box-sizing: border-box;
+    margin: 0 auto; 
+    
+}
+
+.container_card .fondo{
+    width: 100%;
+    object-fit: none;
+    
+}
+.image_product{
+    position: absolute;
+    width: 243px;
+    height: 243px;
+    object-fit: contain;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+@media (min-width: 768px) { 
+    .content_title_section{
+       
+        padding: 2% 0;
+        margin: 0 auto;
+       
+    } 
+}
+
+@media (min-width: 1024px) {
+
+  }

@@ -2,24 +2,24 @@ import React from 'react'
 import navbar from '../assets/styles/navbar.css';
 import { AiOutlineMenu } from "react-icons/ai";
 import { CiShoppingCart , CiSearch} from "react-icons/ci";
-import { IconLogo } from '../assets/icons/IconLogo.js';
+import  IconLogo  from '../assets/icons/IconLogo.svg';
 
 
 const NavBar = () => {
   return (
     <div className='content_navbar' >
         <div>
-            <AiOutlineMenu size={25} color='#fff' />
+            <AiOutlineMenu size={27} color='#fff' />
         </div>
 
         <div>
-            <IconLogo></IconLogo>
+            <img src={IconLogo} alt="" srcset="" width={65} />
         </div>
         
 
         <div className='icons_left'>
-            <CiShoppingCart size={25} color='#fff' />
-            <CiSearch size={25} color='#fff' />
+            <CiShoppingCart size={27} color='#fff' />
+            <CiSearch size={27} color='#fff' />
         </div>
 
     </div>

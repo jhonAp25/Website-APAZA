@@ -1,14 +1,12 @@
-*{
-    padding: 0;
-    margin: 0;
-}
 
 .content_navbar{
+    position: relative;
     background: transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 10px;
+    z-index: 100;
 }
 .icons_left{
     display: flex;

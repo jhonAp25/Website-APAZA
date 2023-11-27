@@ -1,15 +1,13 @@
 import React from 'react'
-import NavBar from '../components/NavBar'
 import Banner from '../components/Banner'
+import Main from '../components/Main'
 
 const Home = () => {
   return (
-    <div>
-        <NavBar/>
-
+    <>  
         <Banner/>
-        
-    </div>
+        <Main/>
+    </>
   )
 }
 

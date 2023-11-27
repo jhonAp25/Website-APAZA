@@ -1,12 +1,10 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
-
 
 .content_banner{
     background: #caca;
     position: relative;
-    top: -85px;
-    z-index: -10;
+    margin-top: -80px;
+    z-index: 0;
     height: 100vh;
     overflow: hidden;
 }
@@ -20,9 +18,20 @@
     position: relative;
 }
 
+.content_image{
+    height: 100vh;
+}
+.content_image::before{
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    background-color: #10101075;
+    position: absolute;
+}
 .content_image img{
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 .content_title{
     z-index: 10;
@@ -51,10 +60,11 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
-.content_title .content_title_background .title_background{
+.title_background{
     font-family: 'Teko', sans-serif;
     font-size: 174px;
-    color: transparent; 
-    -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.719); 
+    color: rgba(255, 255, 255, 0.24); 
+    -webkit-text-stroke: 0.5px rgba(255, 255, 255, 0.819); 
+    font-weight: 600;
     
 }
