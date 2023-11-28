@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {main} from '../assets/styles/main.css';
 import CardProduct from './CardProduct';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
@@ -6,12 +6,17 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
+import { NavLink } from 'react-router-dom';
 
-const SeccionCategoryProduct = () => {
+const SeccionCategoryProduct = ({title, data}) => {
+
+  const [productCategory , setProductCategory] = useState( data.filter(dat => dat.category === title.categoria) )
+
+  console.log(data.filter(dat => dat.category === "casaca"))
   return (
     <div>
       <div className='content_title_section'>
-          <span>Joggers</span>
+           <NavLink to={"/"+title.categoria}> <span>{title.categoria}</span></NavLink>
       </div>
 
       <div className='container_cards'>
@@ -41,10 +46,12 @@ const SeccionCategoryProduct = () => {
                 
                 className="mySwiper"
             >
-            <SwiperSlide> <CardProduct/> </SwiperSlide>
-            <SwiperSlide> <CardProduct/> </SwiperSlide>
-            <SwiperSlide> <CardProduct/> </SwiperSlide>
-            <SwiperSlide> <CardProduct/> </SwiperSlide>
+
+              {productCategory.map(c=>(
+                 <SwiperSlide> <CardProduct data= {c}/> </SwiperSlide>
+              ))}
+          
+          
             
             </Swiper>
               

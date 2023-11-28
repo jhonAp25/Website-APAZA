@@ -3,6 +3,7 @@ import navbar from '../assets/styles/navbar.css';
 import { AiOutlineMenu } from "react-icons/ai";
 import { CiShoppingCart , CiSearch} from "react-icons/ci";
 import  IconLogo  from '../assets/icons/IconLogo.svg';
+import { NavLink } from 'react-router-dom';
 
 
 const NavBar = () => {
@@ -12,8 +13,8 @@ const NavBar = () => {
             <AiOutlineMenu size={27} color='#fff' />
         </div>
 
-        <div>
-            <img src={IconLogo} alt="" srcset="" width={65} />
+        <div style={{ marginLeft: "45px"}}>
+            <NavLink to={"/"}> <img src={IconLogo} alt="" srcset="" width={65} /></NavLink>
         </div>
         
 

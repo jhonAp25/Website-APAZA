@@ -7,16 +7,16 @@ import LayoutIndex from '../layout/LayoutIndex'
 
 export const routers = createBrowserRouter ([
     {
-        path : "/home",
+        path : "/",
         element: <LayoutIndex/>,
         errorElement: <NotFound/>,
         children: [ 
             {  
-                path: "/home/hom",
+                path: "/",
                 element: <Home/>
                
             },{
-                path: "/home/jogger",
+                path: "/:category",
                 element: <ProductPage/>
             
         }]

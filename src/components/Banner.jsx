@@ -1,6 +1,6 @@
 import React from 'react'
-import {banner} from '../assets/styles/banner.css';
-import {EffectFade,  Autoplay, Pagination, Navigation } from 'swiper/modules';
+import  '../assets/styles/banner.css';
+import { Autoplay, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
@@ -17,10 +17,9 @@ const Banner = () => {
            spaceBetween={10}
            pagination={{
              clickable: true,}}
-            effect={'fade'}
-            loop={true}
+                      loop={true}
             autoplay={{  delay: 3500,  disableOnInteraction: false }}
-            modules={[EffectFade,Autoplay, Pagination]}
+            modules={[Autoplay, Pagination]}
             className="mySwiper"
         >
         <SwiperSlide>
