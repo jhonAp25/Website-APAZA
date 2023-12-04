@@ -1,12 +1,12 @@
 import React, { useState } from 'react'
-import {main} from '../assets/styles/main.css';
+import  '../assets/styles/main.css';
 import CardProduct from './CardProduct';
-import { Autoplay, Pagination, Navigation } from 'swiper/modules';
+import { Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
-import { NavLink } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 const SeccionCategoryProduct = ({title, data}) => {
 
@@ -16,7 +16,7 @@ const SeccionCategoryProduct = ({title, data}) => {
   return (
     <div>
       <div className='content_title_section'>
-           <NavLink to={"/"+title.categoria}> <span>{title.categoria}</span></NavLink>
+           <Link style={{outline: "none" , textDecoration: "none" , color : "#fff"}} to={"/"+title.categoria}> <span>{title.categoria}</span></Link>
       </div>
 
       <div className='container_cards'>

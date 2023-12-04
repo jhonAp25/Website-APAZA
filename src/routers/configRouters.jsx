@@ -4,6 +4,7 @@ import Home from '../pages/Home'
 import ProductPage from '../pages/ProductPage'
 import NotFound from '../pages/NotFound'
 import LayoutIndex from '../layout/LayoutIndex'
+import CategoryPage from '../pages/CategoryPage'
 
 export const routers = createBrowserRouter ([
     {
@@ -17,9 +18,12 @@ export const routers = createBrowserRouter ([
                
             },{
                 path: "/:category",
+                element: <CategoryPage/>
+            },{
+                path: "/:category/:id",
                 element: <ProductPage/>
-            
-        }]
+            }
+        ]
     },
    
 ])

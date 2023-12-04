@@ -1,569 +1,582 @@
-
-    [
-      {  
-        "category": "casaca",
-        "modelo": "Clasico - Material Wafer",
-        "descripcion" : "Prenda perfecta para el deporte, como sencillo y de muy buena calidad.",
-        "image" : "https://i.imgur.com/yHzA4u1.png", 
-        "color": [
-          {
-            "nombre": "negro",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "blanco",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "azul",
-            "codigo": "#ffffff"
-          }
-        ],
-        "Talla": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
-        "precio": 50,
-        "stock" : 150
+[
+  {
+    "id": 0,
+    "category": "buzo",
+    "modelo": "Short Tela mojada",
+    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "image": "https://i.imgur.com/cTj22BD.png",
+    "color": [
+      {
+        "nombre": "negro",
+        "codigo": "#ffffff"
       },
       {
-        "category": "short",
-        "modelo": "Short FeshTerry",
-        "descripcion" : "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
-        "image" : "https://i.imgur.com/WzEWw5l.png", 
-        "color": [
-          {
-            "nombre": "negro",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "blanco",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "azul",
-            "codigo": "#ffffff"
-          }
-        ],
-        "Talla": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
-        "precio": 50,
-        "stock" : 150
+        "nombre": "blanco",
+        "codigo": "#ffffff"
       },
       {
-        "category": "short",
-        "modelo": "Short Poliadidas",
-        "descripcion" : "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
-        "image" : "https://i.imgur.com/db5W6Pf.png", 
-        "color": [
-          {
-            "nombre": "negro",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "blanco",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "azul",
-            "codigo": "#ffffff"
-          }
-        ],
-        "Talla": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
-        "precio": 50,
-        "stock" : 150
-      },
-      {
-        "category": "buzo",
-        "modelo": "Short Tela mojada",
-        "descripcion" : "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
-        "image" : "https://i.imgur.com/cTj22BD.png", 
-        "color": [
-          {
-            "nombre": "negro",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "blanco",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "azul",
-            "codigo": "#ffffff"
-          }
-        ],
-        "Talla": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
-        "precio": 50,
-        "stock" : 150
+        "nombre": "azul",
+        "codigo": "#ffffff"
       }
-    ,
+    ],
+    "Talla": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "precio": 50,
+    "stock": 150
+  },
+  {
+    "id": 1,
+    "category": "buzo",
+    "modelo": "Short Tela mojada",
+    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "image": "https://i.imgur.com/cTj22BD.png",
+    "color": [
       {
-        "category": "buzo",
-        "modelo": "jgfjkdsgfksd",
-        "descripcion" : "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
-        "image" : "https://i.imgur.com/liVyTIt.png", 
-        "color": [
-          {
-            "nombre": "negro",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "blanco",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "azul",
-            "codigo": "#ffffff"
-          }
-        ],
-        "Talla": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
-        "precio": 50,
-        "stock" : 150
+        "nombre": "negro",
+        "codigo": "#ffffff"
       },
       {
-        "category": "buzo",
-        "modelo": "jgfjkdsgfksd",
-        "descripcion" : "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
-        "image" : "https://i.imgur.com/liVyTIt.png", 
-        "color": [
-          {
-            "nombre": "negro",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "blanco",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "azul",
-            "codigo": "#ffffff"
-          }
-        ],
-        "Talla": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
-        "precio": 50,
-        "stock" : 150
-      },
-      
-      {
-        "category": "polo",
-        "modelo": "jgfjkdsgfksd",
-        "descripcion" : "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
-        "image" : "https://i.imgur.com/liVyTIt.png", 
-        "color": [
-          {
-            "nombre": "negro",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "blanco",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "azul",
-            "codigo": "#ffffff"
-          }
-        ],
-        "Talla": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
-        "precio": 50,
-        "stock" : 150
+        "nombre": "blanco",
+        "codigo": "#ffffff"
       },
       {
-        "category": "polo",
-        "modelo": "jgfjkdsgfksd",
-        "descripcion" : "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
-        "image" : "https://i.imgur.com/liVyTIt.png", 
-        "color": [
-          {
-            "nombre": "negro",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "blanco",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "azul",
-            "codigo": "#ffffff"
-          }
-        ],
-        "Talla": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
-        "precio": 50,
-        "stock" : 150
-      },
-      {
-        "category": "polo",
-        "modelo": "jgfjkdsgfksd",
-        "descripcion" : "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
-        "image" : "https://i.imgur.com/liVyTIt.png", 
-        "color": [
-          {
-            "nombre": "negro",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "blanco",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "azul",
-            "codigo": "#ffffff"
-          }
-        ],
-        "Talla": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
-        "precio": 50,
-        "stock" : 150
-      },
-      {
-        "category": "polo",
-        "modelo": "jgfjkdsgfksd",
-        "descripcion" : "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
-        "image" : "https://i.imgur.com/liVyTIt.png", 
-        "color": [
-          {
-            "nombre": "negro",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "blanco",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "azul",
-            "codigo": "#ffffff"
-          }
-        ],
-        "Talla": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
-        "precio": 50,
-        "stock" : 150
-      },
-      {  
-        "category": "casaca",
-        "modelo": "Clasico - Material Wafer",
-        "descripcion" : "Prenda perfecta para el deporte, como sencillo y de muy buena calidad.",
-        "image" : "https://i.imgur.com/yHzA4u1.png", 
-        "color": [
-          {
-            "nombre": "negro",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "blanco",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "azul",
-            "codigo": "#ffffff"
-          }
-        ],
-        "Talla": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
-        "precio": 50,
-        "stock" : 150
-      },
-      {
-        "category": "short",
-        "modelo": "Short FeshTerry",
-        "descripcion" : "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
-        "image" : "https://i.imgur.com/WzEWw5l.png", 
-        "color": [
-          {
-            "nombre": "negro",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "blanco",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "azul",
-            "codigo": "#ffffff"
-          }
-        ],
-        "Talla": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
-        "precio": 50,
-        "stock" : 150
-      },
-      {
-        "category": "short",
-        "modelo": "Short Poliadidas",
-        "descripcion" : "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
-        "image" : "https://i.imgur.com/db5W6Pf.png", 
-        "color": [
-          {
-            "nombre": "negro",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "blanco",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "azul",
-            "codigo": "#ffffff"
-          }
-        ],
-        "Talla": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
-        "precio": 50,
-        "stock" : 150
-      },
-      {
-        "category": "buzo",
-        "modelo": "Short Tela mojada",
-        "descripcion" : "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
-        "image" : "https://i.imgur.com/cTj22BD.png", 
-        "color": [
-          {
-            "nombre": "negro",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "blanco",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "azul",
-            "codigo": "#ffffff"
-          }
-        ],
-        "Talla": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
-        "precio": 50,
-        "stock" : 150
+        "nombre": "azul",
+        "codigo": "#ffffff"
       }
-    ,
+    ],
+    "Talla": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "precio": 50,
+    "stock": 150
+  },
+  {
+    "id": 2,
+    "category": "short",
+    "modelo": "Short Poliadidas",
+    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "image": "https://i.imgur.com/db5W6Pf.png",
+    "color": [
       {
-        "category": "buzo",
-        "modelo": "jgfjkdsgfksd",
-        "descripcion" : "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
-        "image" : "https://i.imgur.com/liVyTIt.png", 
-        "color": [
-          {
-            "nombre": "negro",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "blanco",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "azul",
-            "codigo": "#ffffff"
-          }
-        ],
-        "Talla": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
-        "precio": 50,
-        "stock" : 150
+        "nombre": "negro",
+        "codigo": "#ffffff"
       },
       {
-        "category": "buzo",
-        "modelo": "jgfjkdsgfksd",
-        "descripcion" : "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
-        "image" : "https://i.imgur.com/liVyTIt.png", 
-        "color": [
-          {
-            "nombre": "negro",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "blanco",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "azul",
-            "codigo": "#ffffff"
-          }
-        ],
-        "Talla": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
-        "precio": 50,
-        "stock" : 150
-      },
-      
-      {
-        "category": "polo",
-        "modelo": "jgfjkdsgfksd",
-        "descripcion" : "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
-        "image" : "https://i.imgur.com/liVyTIt.png", 
-        "color": [
-          {
-            "nombre": "negro",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "blanco",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "azul",
-            "codigo": "#ffffff"
-          }
-        ],
-        "Talla": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
-        "precio": 50,
-        "stock" : 150
+        "nombre": "blanco",
+        "codigo": "#ffffff"
       },
       {
-        "category": "polo",
-        "modelo": "jgfjkdsgfksd",
-        "descripcion" : "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
-        "image" : "https://i.imgur.com/liVyTIt.png", 
-        "color": [
-          {
-            "nombre": "negro",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "blanco",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "azul",
-            "codigo": "#ffffff"
-          }
-        ],
-        "Talla": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
-        "precio": 50,
-        "stock" : 150
-      },
-      {
-        "category": "polo",
-        "modelo": "jgfjkdsgfksd",
-        "descripcion" : "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
-        "image" : "https://i.imgur.com/liVyTIt.png", 
-        "color": [
-          {
-            "nombre": "negro",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "blanco",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "azul",
-            "codigo": "#ffffff"
-          }
-        ],
-        "Talla": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
-        "precio": 50,
-        "stock" : 150
-      },
-      {
-        "category": "casaca",
-        "modelo": "jgfjkdsgfksd",
-        "descripcion" : "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
-        "image" : "https://i.imgur.com/liVyTIt.png", 
-        "color": [
-          {
-            "nombre": "negro",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "blanco",
-            "codigo": "#ffffff"
-          },
-          {
-            "nombre": "azul",
-            "codigo": "#ffffff"
-          }
-        ],
-        "Talla": [
-          "S",
-          "M",
-          "L",
-          "XL"
-        ],
-        "precio": 50,
-        "stock" : 150
+        "nombre": "azul",
+        "codigo": "#ffffff"
       }
-    ]
-
-  
+    ],
+    "Talla": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "precio": 50,
+    "stock": 150
+  },
+  {
+    "id": 3,
+    "category": "short",
+    "modelo": "Short Poliadidas",
+    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "image": "https://i.imgur.com/db5W6Pf.png",
+    "color": [
+      {
+        "nombre": "negro",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "blanco",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "azul",
+        "codigo": "#ffffff"
+      }
+    ],
+    "Talla": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "precio": 50,
+    "stock": 150
+  },
+  {
+    "id": 4,
+    "category": "short",
+    "modelo": "Short FeshTerry",
+    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "image": "https://i.imgur.com/WzEWw5l.png",
+    "color": [
+      {
+        "nombre": "negro",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "blanco",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "azul",
+        "codigo": "#ffffff"
+      }
+    ],
+    "Talla": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "precio": 50,
+    "stock": 150
+  },
+  {
+    "id": 5,
+    "category": "short",
+    "modelo": "Short FeshTerry",
+    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "image": "https://i.imgur.com/WzEWw5l.png",
+    "color": [
+      {
+        "nombre": "negro",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "blanco",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "azul",
+        "codigo": "#ffffff"
+      }
+    ],
+    "Talla": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "precio": 50,
+    "stock": 150
+  },
+  {
+    "id": 6,
+    "category": "buzo",
+    "modelo": "jgfjkdsgfksd",
+    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "image": "https://i.imgur.com/liVyTIt.png",
+    "color": [
+      {
+        "nombre": "negro",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "blanco",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "azul",
+        "codigo": "#ffffff"
+      }
+    ],
+    "Talla": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "precio": 50,
+    "stock": 150
+  },
+  {
+    "id": 7,
+    "category": "buzo",
+    "modelo": "jgfjkdsgfksd",
+    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "image": "https://i.imgur.com/liVyTIt.png",
+    "color": [
+      {
+        "nombre": "negro",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "blanco",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "azul",
+        "codigo": "#ffffff"
+      }
+    ],
+    "Talla": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "precio": 50,
+    "stock": 150
+  },
+  {
+    "id": 8,
+    "category": "polo",
+    "modelo": "jgfjkdsgfksd",
+    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "image": "https://i.imgur.com/liVyTIt.png",
+    "color": [
+      {
+        "nombre": "negro",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "blanco",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "azul",
+        "codigo": "#ffffff"
+      }
+    ],
+    "Talla": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "precio": 50,
+    "stock": 150
+  },
+  {
+    "id": 9,
+    "category": "polo",
+    "modelo": "jgfjkdsgfksd",
+    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "image": "https://i.imgur.com/liVyTIt.png",
+    "color": [
+      {
+        "nombre": "negro",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "blanco",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "azul",
+        "codigo": "#ffffff"
+      }
+    ],
+    "Talla": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "precio": 50,
+    "stock": 150
+  },
+  {
+    "id": 10,
+    "category": "polo",
+    "modelo": "jgfjkdsgfksd",
+    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "image": "https://i.imgur.com/liVyTIt.png",
+    "color": [
+      {
+        "nombre": "negro",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "blanco",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "azul",
+        "codigo": "#ffffff"
+      }
+    ],
+    "Talla": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "precio": 50,
+    "stock": 150
+  },
+  {
+    "id": 11,
+    "category": "polo",
+    "modelo": "jgfjkdsgfksd",
+    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "image": "https://i.imgur.com/liVyTIt.png",
+    "color": [
+      {
+        "nombre": "negro",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "blanco",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "azul",
+        "codigo": "#ffffff"
+      }
+    ],
+    "Talla": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "precio": 50,
+    "stock": 150
+  },
+  {
+    "id": 12,
+    "category": "buzo",
+    "modelo": "jgfjkdsgfksd",
+    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "image": "https://i.imgur.com/liVyTIt.png",
+    "color": [
+      {
+        "nombre": "negro",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "blanco",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "azul",
+        "codigo": "#ffffff"
+      }
+    ],
+    "Talla": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "precio": 50,
+    "stock": 150
+  },
+  {
+    "id": 13,
+    "category": "buzo",
+    "modelo": "jgfjkdsgfksd",
+    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "image": "https://i.imgur.com/liVyTIt.png",
+    "color": [
+      {
+        "nombre": "negro",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "blanco",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "azul",
+        "codigo": "#ffffff"
+      }
+    ],
+    "Talla": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "precio": 50,
+    "stock": 150
+  },
+  {
+    "id": 14,
+    "category": "polo",
+    "modelo": "jgfjkdsgfksd",
+    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "image": "https://i.imgur.com/liVyTIt.png",
+    "color": [
+      {
+        "nombre": "negro",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "blanco",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "azul",
+        "codigo": "#ffffff"
+      }
+    ],
+    "Talla": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "precio": 50,
+    "stock": 150
+  },
+  {
+    "id": 15,
+    "category": "polo",
+    "modelo": "jgfjkdsgfksd",
+    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "image": "https://i.imgur.com/liVyTIt.png",
+    "color": [
+      {
+        "nombre": "negro",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "blanco",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "azul",
+        "codigo": "#ffffff"
+      }
+    ],
+    "Talla": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "precio": 50,
+    "stock": 150
+  },
+  {
+    "id": 16,
+    "category": "polo",
+    "modelo": "jgfjkdsgfksd",
+    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "image": "https://i.imgur.com/liVyTIt.png",
+    "color": [
+      {
+        "nombre": "negro",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "blanco",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "azul",
+        "codigo": "#ffffff"
+      }
+    ],
+    "Talla": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "precio": 50,
+    "stock": 150
+  },
+  {
+    "id": 17,
+    "category": "casaca",
+    "modelo": "jgfjkdsgfksd",
+    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "image": "https://i.imgur.com/liVyTIt.png",
+    "color": [
+      {
+        "nombre": "negro",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "blanco",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "azul",
+        "codigo": "#ffffff"
+      }
+    ],
+    "Talla": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "precio": 50,
+    "stock": 150
+  },
+  {
+    "id": 18,
+    "category": "casaca",
+    "modelo": "Clasico - Material Wafer",
+    "descripcion": "Prenda perfecta para el deporte, como sencillo y de muy buena calidad.",
+    "image": "https://i.imgur.com/yHzA4u1.png",
+    "color": [
+      {
+        "nombre": "negro",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "blanco",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "azul",
+        "codigo": "#ffffff"
+      }
+    ],
+    "Talla": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "precio": 50,
+    "stock": 150
+  },
+  {
+    "id": 19,
+    "category": "casaca",
+    "modelo": "Clasico - Material Wafer",
+    "descripcion": "Prenda perfecta para el deporte, como sencillo y de muy buena calidad.",
+    "image": "https://i.imgur.com/yHzA4u1.png",
+    "color": [
+      {
+        "nombre": "negro",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "blanco",
+        "codigo": "#ffffff"
+      },
+      {
+        "nombre": "azul",
+        "codigo": "#ffffff"
+      }
+    ],
+    "Talla": [
+      "S",
+      "M",
+      "L",
+      "XL"
+    ],
+    "precio": 50,
+    "stock": 150
+  }
+]
