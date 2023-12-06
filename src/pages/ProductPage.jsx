@@ -3,6 +3,7 @@ import trama_fondo from '../assets/images/trama_fondo.png';
 import { useParams } from 'react-router-dom'
 import database from '../database/bd.json'
 import '../assets/styles/productPage.css'
+import ColorSection from '../components/ColorSection';
 
 const ProductPage = () => {
 
@@ -25,8 +26,40 @@ const ProductPage = () => {
             </div>
 
             <div className='content_info'>
+                <div className='content_title_info'>
+                    <span className='title_info'>{product[0].modelo}</span>
+                    <span className='description_info'>{product[0].descripcion}</span>
+                </div>
 
-            </div>
+                <div className='content_precio'>
+                    <div className='precio_num'>
+                        <span>Normal</span>
+                        <span className='precio_normal' style={{ fontWeight: "200" }} >S/ {product[0].precio + 10}.00 PEN</span>
+                    </div>
+                    <div className='precio_num'>
+                        <span>Internet</span>
+                        <span className='precio_inter'>S/ {product[0].precio}.00 PEN</span>
+                    </div>
+                    <div className='precio_num'>
+                        <span>Descuento</span>
+                        <span className='precio_desc'>- {product[0].precio} %</span>
+                    </div>
+                </div>
+
+                <div className='content_color'>
+                    <ColorSection color={product[0].color}/>
+                  
+                </div>
+
+                <div>
+                    <span>TALLA: </span>
+                    <span>S-M-L-XL</span>
+                </div>
+
+                <div>
+                    BOTONES
+                </div>
+            </div>  
         </div>
 
     </>

@@ -1,10 +1,14 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.cdnfonts.com/css/sansation');
 
 *{
     padding: 0;
     margin: 0;
     font-family: 'Teko', sans-serif;
+}
+a{
+    text-decoration: none !important;
 }
 
 @media (min-width: 768px) { 

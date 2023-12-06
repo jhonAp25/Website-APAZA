@@ -8,15 +8,15 @@
     "color": [
       {
         "nombre": "negro",
-        "codigo": "#ffffff"
+        "codigo": "#000"
       },
       {
         "nombre": "blanco",
         "codigo": "#ffffff"
       },
       {
-        "nombre": "azul",
-        "codigo": "#ffffff"
+        "nombre": "rosado",
+        "codigo": "#cad"
       }
     ],
     "Talla": [

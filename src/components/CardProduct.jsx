@@ -10,6 +10,16 @@ const CardProduct = ({data}) => {
             <img className='fondo' src={trama_fondo} alt="" srcSet="" />
            
             <img className='image_product' src={data.image} alt="" sizes="" srcSet="" />
+
+            <div  className='card_info_prod'>
+              <div className='info'>
+                <span className='title_info'>{data.category}</span>
+                <span className='name_info'>{data.modelo}</span>
+              </div>
+              <div>
+                <span className='precio_info'>S/ {data.precio}</span>
+              </div>
+            </div>
          
         </div>
         

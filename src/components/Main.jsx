@@ -30,7 +30,7 @@ var categoriasRepetidas = countCategory(products, 'category');
 
 
   return (
-    <div style={{background : "#6DA69F" }}>
+    <div style={{background : "#fff" }}>
 
    
         <div className='content_main' >
