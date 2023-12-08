@@ -4,6 +4,7 @@ import { useParams } from 'react-router-dom'
 import database from '../database/bd.json'
 import '../assets/styles/productPage.css'
 import ColorSection from '../components/ColorSection';
+import TallaSection from '../components/TallaSection';
 
 const ProductPage = () => {
 
@@ -51,9 +52,8 @@ const ProductPage = () => {
                   
                 </div>
 
-                <div>
-                    <span>TALLA: </span>
-                    <span>S-M-L-XL</span>
+                <div className='content_talla'>
+                   <TallaSection talla={product[0].talla}/>
                 </div>
 
                 <div>

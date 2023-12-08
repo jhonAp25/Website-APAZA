@@ -11,6 +11,22 @@
         "codigo": "#000"
       },
       {
+        "nombre": "azul",
+        "codigo": "#0aa"
+      },
+      {
+        "nombre": "jade",
+        "codigo": "#baba"
+      },
+      {
+        "nombre": "rojo",
+        "codigo": "#aaa"
+      },
+      {
+        "nombre": "acero",
+        "codigo": "#af45"
+      },
+      {
         "nombre": "blanco",
         "codigo": "#ffffff"
       },

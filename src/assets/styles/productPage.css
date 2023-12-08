@@ -68,21 +68,22 @@ font-weight: 800;
     clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
 }
 
+
+/*****************************COLOR*********************/
 .content_color{
     margin-top: 30px;
 }
-/*****************************COLOR*********************/
-
 
 .color{
     position: relative;
     width: 50px;
     height: 50px;
-    border-radius: 3px;
+    border-radius: 9px;
     border: 1px solid black;
     cursor: pointer;    
 }
 .content_colors_palette{
+    margin-top: 10px;
     display: flex;
     gap: 5px;
 }
@@ -104,4 +105,36 @@ font-weight: 800;
     border-style: solid;
     border-width: 3px;
     border-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    
+}
+
+/********************TALLA****************************/
+
+.content_talla{
+    margin-top: 30px;
+}
+
+.content_talla_select{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.talla{
+    width: 34px;
+    height: 34px;
+    border: 1px solid rgb(43, 42, 42);
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.tallaSelected{
+   
+    font-weight: 800;
+    border: 2px solid rgb(32, 32, 32);
 }

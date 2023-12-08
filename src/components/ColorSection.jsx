@@ -10,8 +10,8 @@ const ColorSection = ({color}) => {
   return (
     <div>
         <div>
-            <span>COLOR:</span>
-            <span>{colorSelectd}</span>
+            <span style={{fontWeight: "800"}}>COLOR: </span>
+            <span style={{textTransform: "capitalize"}}>{colorSelectd}</span>
         </div>
 
         <div className='content_colors_palette'>
