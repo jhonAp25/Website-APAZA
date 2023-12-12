@@ -48,7 +48,7 @@ const SeccionCategoryProduct = ({title, data}) => {
             >
 
               {productCategory.map(c=>(
-                 <SwiperSlide> <CardProduct data= {c}/> </SwiperSlide>
+                 <SwiperSlide style={{padding: "10px 0"}}> <CardProduct data= {c}/> </SwiperSlide>
               ))}
           
           

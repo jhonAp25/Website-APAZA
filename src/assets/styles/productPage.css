@@ -5,7 +5,7 @@
     width: 100%;
 }
 .image_product_selected{
-    width: 70%;
+    width: 300px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -14,16 +14,20 @@
 
 .grid{
     display: grid;
-    grid-template-columns: 50% 50%;
+    
+    
 }
-.fondo{
+.fondo_product_selected{
     width: 100%;
+    max-height: 550px;
 }
 /******************************************************/
 
 .content_info{
     
     padding: 30px;
+    display: flex;
+    flex-direction: column;
 }
 .content_info span{
     font-family: 'Sansation', sans-serif;
@@ -62,7 +66,7 @@ font-weight: 800;
     font-weight: 800;
 }
 .precio_desc{
-    padding: 2px;
+    padding: 2px 2px 2px 9px;
     background-color:  #FF6F61;;
     color: white;
     clip-path: polygon(25% 0%, 100% 1%, 100% 100%, 25% 100%, 0% 50%);
@@ -137,4 +141,80 @@ font-weight: 800;
    
     font-weight: 800;
     border: 2px solid rgb(32, 32, 32);
+}
+
+/**************************BUTTON ****************************/
+.content_buttons{
+    margin-top: 50px;
+    display: flex;
+    gap: 10px;
+    
+    
+}
+
+.content_button{
+    flex: 8;
+    background: #00CED1;
+    padding: 15px 0;
+    width: 100%;
+    color: white;
+    font-family: 'Sansation', sans-serif;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.content_button:hover{
+    background-color: #00ced1d3;
+}
+
+.content_quantity{
+    flex: 2;
+    border: 1px solid #141414;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+.mas , .menos{
+    cursor: pointer;
+    padding: 15px;
+    display: inherit;
+}
+.mas:hover , .menos:hover{
+    background-color: #4e4e4d15;
+}
+
+
+@media (min-width: 768px) { 
+    .grid{
+        grid-template-columns: 50% 50%;
+       }
+    .fondo_product_selected{
+        height: 100%;
+        object-fit: cover;
+        max-height: 100%;
+    }
+ 
+ }
+
+@media (min-width: 1024px) {
+   .grid{
+    grid-template-columns: 50% 50%;
+   }
+     
+}
+
+@media (min-width: 1280px) {
+   .grid{
+    grid-template-columns: 50% 50%;
+    max-height: 550px;
+    overflow: hidden;
+   }
+   .fondo_product_selected{
+    height: 550px;
+    }    
 }

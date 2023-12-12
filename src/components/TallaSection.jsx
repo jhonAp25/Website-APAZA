@@ -1,8 +1,8 @@
 import React, { useState } from 'react'
 
-const TallaSection = ({talla}) => {
+const TallaSection = ({talla , tallaSelected, setTallaSelected}) => {
 
-    const [tallaSelected, setTallaSelected] = useState("S")
+    
 
     const selectedTalla=(size)=>{
         setTallaSelected(size)

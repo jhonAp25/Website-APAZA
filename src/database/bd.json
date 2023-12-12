@@ -77,20 +77,36 @@
     "id": 2,
     "category": "short",
     "modelo": "Short Poliadidas",
-    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "descripcion": "Sumérgete en el confort y el estilo atlético con nuestro short deportivo de poliéster, diseñado para llevar tus entrenamientos al siguiente nivel. Fabricado con un tejido de poliéster de alta calidad, este short no solo ofrece un ajuste ceñido y cómodo, sino que también proporciona una libertad de movimiento sin restricciones.",
     "image": "https://i.imgur.com/db5W6Pf.png",
     "color": [
       {
         "nombre": "negro",
-        "codigo": "#ffffff"
+        "codigo": "#000"
+      },
+      {
+        "nombre": "azul",
+        "codigo": "#0aa"
+      },
+      {
+        "nombre": "jade",
+        "codigo": "#baba"
+      },
+      {
+        "nombre": "rojo",
+        "codigo": "#aaa"
+      },
+      {
+        "nombre": "acero",
+        "codigo": "#af45"
       },
       {
         "nombre": "blanco",
         "codigo": "#ffffff"
       },
       {
-        "nombre": "azul",
-        "codigo": "#ffffff"
+        "nombre": "rosado",
+        "codigo": "#cad"
       }
     ],
     "Talla": [

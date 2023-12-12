@@ -1,16 +1,42 @@
 import React, { useState } from 'react'
+
 import trama_fondo from '../assets/images/trama_fondo.png';
-import { useParams } from 'react-router-dom'
+import { Link, useParams } from 'react-router-dom'
 import database from '../database/bd.json'
 import '../assets/styles/productPage.css'
+
 import ColorSection from '../components/ColorSection';
 import TallaSection from '../components/TallaSection';
+import Button from '../components/Button';
+import ButtonAmount from '../components/ButtonAmount';
+import Test from '../components/Test';
 
 const ProductPage = () => {
 
     let params =  useParams()
     const [product , setProductCategory] = useState( database.filter(dat => dat.id === parseInt( params.id) ))
-    console.log(product)
+    const [quantity , setQuantity] = useState(1)
+    const [colorSelectd , setColorSelected]= useState(product[0].color[0].nombre)
+    const [tallaSelected, setTallaSelected] = useState("S")
+
+    
+    
+    const [productDetails  , setProductDetails] =useState()
+
+
+    const addCart=(id, color, cantidad, talla)=>{
+        setProductDetails({
+            "id": id, 
+            "color": color,
+            "talla": talla,
+            "cantidad" : cantidad
+        })
+
+       
+    }
+
+
+    
   return (
 
     <>
@@ -20,7 +46,7 @@ const ProductPage = () => {
 
         <div className='content_main grid'>
             <div className='container_product_selected'>
-                <img className='fondo' src={trama_fondo} alt="" srcSet="" />
+                <img className='fondo_product_selected' src={trama_fondo} alt="" srcSet="" />
             
                 <img className='image_product_selected' src={product[0].image} alt="" sizes="" srcSet="" />
             
@@ -48,19 +74,25 @@ const ProductPage = () => {
                 </div>
 
                 <div className='content_color'>
-                    <ColorSection color={product[0].color}/>
+                    <ColorSection color={product[0].color} colorSelectd={colorSelectd} setColorSelected={setColorSelected} />
                   
                 </div>
 
                 <div className='content_talla'>
-                   <TallaSection talla={product[0].talla}/>
+                   <TallaSection talla={product[0].talla} tallaSelected={tallaSelected} setTallaSelected={setTallaSelected}  />
                 </div>
 
-                <div>
-                    BOTONES
+                <div className='content_buttons'>
+                    <ButtonAmount quantity={quantity} setQuantity={setQuantity} />
+                    <Link to={ "/" + params.category } > 
+                    <Button name={"Añadir a Carrito"} eventClick={()=>addCart(product[0].id , colorSelectd , quantity, tallaSelected ) } /></Link>
+                    
                 </div>
             </div>  
         </div>
+
+
+        <Test/>
 
     </>
   )

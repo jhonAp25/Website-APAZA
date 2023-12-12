@@ -5,6 +5,7 @@ import ProductPage from '../pages/ProductPage'
 import NotFound from '../pages/NotFound'
 import LayoutIndex from '../layout/LayoutIndex'
 import CategoryPage from '../pages/CategoryPage'
+import CartPage from '../pages/CartPage'
 
 export const routers = createBrowserRouter ([
     {
@@ -22,7 +23,11 @@ export const routers = createBrowserRouter ([
             },{
                 path: "/:category/:id",
                 element: <ProductPage/>
-            }
+            },{  
+                path: "/carrito",
+                element: <CartPage/>
+               
+            },
         ]
     },
    

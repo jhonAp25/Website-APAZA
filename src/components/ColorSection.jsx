@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
 
-const ColorSection = ({color}) => {
-    const [colorSelectd , setColorSelected]= useState(color[0].nombre)
-
+const ColorSection = ({color, colorSelectd, setColorSelected}) => {
+    
     const selectedColor =(color)=>{
         setColorSelected(color)
     }
