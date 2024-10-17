@@ -29,17 +29,18 @@
     height: 100%;
     max-width: 350px;
     position: relative;
-    padding: 2%;
     box-sizing: border-box;
     margin: 0 auto; 
-    box-shadow: 0px 4px 7px #00000073;
-    border-radius: 5px;
-    padding: 2% 2% 0 2%;
+    border: 1px solid #333;
+    border-radius: 10px;
+    overflow: hidden;
     
 }
 .container_card:hover .image_product{
     scale: 1.2;
     transform: translate(-42%, -53%);
+    border-radius: 10px;
+
 }
 
 .container_card .fondo{
@@ -65,9 +66,12 @@
     background: rgb(255, 255, 255);
     margin-top: -10px;
     display: flex;
-    justify-content: space-between;
+    color: #333;
+    font-weight: 600;
+    justify-content: center;
     align-items: center;
     padding: 10px 15px;
+    text-transform: uppercase;
     
 }
 .card_info_prod .info{
@@ -80,13 +84,12 @@
     text-transform: uppercase;
     font-weight: 600;
     font-size: 15px;
-    color: #080818;
     text-decoration: none;
 }
 .name_info{
     font-family: 'Sansation', sans-serif;
-    font-size: 12px;
-    color: #5C5858;
+    font-size: 16px;
+    color: #333;
 }
 .precio_info{
     font-size: 20px;

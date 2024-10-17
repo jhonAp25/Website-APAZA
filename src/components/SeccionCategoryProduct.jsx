@@ -22,7 +22,7 @@ const SeccionCategoryProduct = ({title, data}) => {
       <div className='container_cards'>
             <Swiper
                 slidesPerView={'auto'}
-                spaceBetween={30}
+                spaceBetween={0}
                 
                 breakpoints={{
                     640: {
@@ -31,10 +31,14 @@ const SeccionCategoryProduct = ({title, data}) => {
                     },
                     768: {
                     slidesPerView: 2,
-                    spaceBetween: 40,
+                    spaceBetween: 30,
                     },
                     1024: {
                     slidesPerView: 3,
+                    spaceBetween: 50,
+                    },
+                    1280: {
+                    slidesPerView: 4,
                     spaceBetween: 50,
                     },
                 }}

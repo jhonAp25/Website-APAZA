@@ -5,7 +5,7 @@ import { FaFacebookSquare , FaWhatsapp, FaInstagram } from "react-icons/fa";
 const Footer = () => {
   return (
     <div style={{background: "#03040A"}}>
-        <span>Siguenos!!</span>
+        <span>Siguenossss!!</span>
 
         <div>
             <FaFacebookSquare color='#fff' />
