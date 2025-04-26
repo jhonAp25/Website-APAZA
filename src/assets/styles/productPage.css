@@ -187,6 +187,7 @@
 
 /**************************BUTTON ****************************/
 .content_buttons{
+   
     background-color: #F1F1F1;
     border-radius: 10px;
     padding: 5%;
@@ -198,20 +199,28 @@
 }
 
 .content_button{
-    background: #A8E10C;
-    border-radius: 10px;
-    padding: 15px 0;
-    width: 100%;
-    color: white;
-    font-family: 'Sansation', sans-serif;
+    background: #262C4A;
+    padding: 12px 20px;
+    width: fit-content;
+    color: #7B7D91;
     cursor: pointer;
     display: flex;  
     justify-content: center;
     align-items: center;
+    text-transform: capitalize;
 
 }
+.secondary{
+    background-color: transparent;
+    border: 1px solid #262C4A;
+}
+.secondary:hover{
+    background-color: #7b7d9172 !important;
+ 
+}
 .content_button:hover{
-    background-color: #95c60e;
+    background-color: #1b1f34;
+    color: #7B7D91;
 }
 .content_cant{
     width: 20%;

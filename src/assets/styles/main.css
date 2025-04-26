@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Montserrat", sans-serif !important;
+}
 .content_main{
     padding-top: 80px;
 }
@@ -25,14 +30,13 @@
 }
 /*********************************************************************/
 .container_card{
+    position: relative;
     width: 100%;
     height: 100%;
     max-width: 350px;
     position: relative;
     box-sizing: border-box;
     margin: 0 auto; 
-    border: 1px solid #333;
-    border-radius: 10px;
     overflow: hidden;
     
 }
@@ -56,48 +60,113 @@
     width: 243px;
     height: 243px;
     object-fit: contain;
-    top: 50%;
+    top: 37%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .card_info_prod{
-    height: 50px;
-    background: rgb(255, 255, 255);
-    margin-top: -10px;
+    background-color: #EDE4DA;
+    position: absolute;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     display: flex;
-    color: #333;
-    font-weight: 600;
+    color: #05050B;
     justify-content: center;
     align-items: center;
-    padding: 10px 15px;
-    text-transform: uppercase;
+    bottom: -9%;
     
 }
-.card_info_prod .info{
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    padding: 10px;
+    width: 100%;
+    color: #080818;
+}
+.name_info, .name_precio, .name_talla1, .name_talla2 {
+    padding: 8px;
+}
+.name_info, .name_talla1, .name_talla2 {
+   font-size: 10px;
+}
+    
+.name_precio {
     display: flex;
     flex-direction: column;
-    gap: 8px;
-}
-.title_info{
-    font-family: 'Sansation', sans-serif;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 15px;
-    text-decoration: none;
-}
-.name_info{
-    font-family: 'Sansation', sans-serif;
-    font-size: 16px;
-    color: #333;
-}
-.precio_info{
-    font-size: 20px;
-    color: #FF6F61;
-    font-family: 'Sansation', sans-serif;
-    font-weight: 700;
+    grid-column: span 2 / span 2;
+    grid-row: span 2 / span 2;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: 800;
+    position: relative;
 }
 
+.name_talla1 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+    position: relative;
+}
+
+.name_talla2{
+    grid-column-start: 4;
+    grid-row-start: 2;
+    position: relative;
+
+}
+
+.name_info{
+    grid-column: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 1;
+    position: relative;
+
+}
+.card_prod_talla{
+    display: flex;
+    flex-direction: column;
+}
+    
+.name_precio .pen::before{
+    content: "S/";
+    font-size: small;
+}
+.name_precio .name_name_text{
+    text-align: start;
+    font-size: small;
+    font-style: italic;
+}
+.name_precio::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #0f1925;
+}
+.name_info::after {
+    content: "";
+    position: absolute;
+    right: 0px;
+    bottom: 0;
+    width: 100%;
+    height: 1px;
+    background-color: #0f1925;
+}
+.name_talla2::after {
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background-color: #0f1925;
+}
 /***********************************************************************/
 @media (min-width: 768px) { 
     .content_title_section{

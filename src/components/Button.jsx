@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Button = ({name , eventClick }) => {
+const Button = ({name , eventClick , secondary }) => {
 
     
 
   return (
-    <div className='content_button' onClick={eventClick} >{name} </div>
+    <div className={`content_button ${secondary ? 'secondary' : ''}`} onClick={eventClick} >{name} </div>
   )
 }
 
