@@ -1,22 +1,24 @@
-import React from 'react'
+import React, { useState } from 'react'
 import trama_fondo from '../assets/images/trama_fondo.png';
 import { Link } from 'react-router-dom';
 
-const CardProduct = ({data}) => {
+const CardProduct = ({products}) => {
+
+  console.log(products)
  
   return (
-    <Link to={`/${data?.category}/${data?.id}`} style={{position : "relative"}}>
+    <Link to={`/${products?.category}/${products?.id}`} style={{position : "relative"}}>
         <div className='container_card'>
             <img className='fondo' src={trama_fondo} alt="" srcSet="" />
-            <img className='image_product' src="https://i.imgur.com/db5W6Pf.png" alt="" sizes="" srcSet="" />
+            <img className='image_product' src={products.image} alt="" sizes="" srcSet="" />
         </div>
 
         <div  className='card_info_prod'>
           <div className='info'>
             <div className='name_precio'>
-              <span className='name_name_text'>.Short</span>
-              <span className='pen'>29.99</span></div>
-            <div className='name_info'>Algodón suave y poliéster resistente. Ideal para todo el día.</div>
+              <span className='name_name_text'>.{products.modelo}</span>
+              <span className='pen'>{products.precio.toFixed(2)}</span></div>
+            <div className='name_info'>{products.material_descripcion}</div>
 
             <div className='name_talla1 card_prod_talla'>
               <span><strong>XS</strong> 101234</span>

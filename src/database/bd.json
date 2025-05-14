@@ -3,28 +3,29 @@
     "id": 0,
     "category": "buzo",
     "modelo": "Short Tela mojada",
-    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "descripcion": "Shorts de tela ultraligera que se seca rápidamente, perfectos para actividades acuáticas o entrenamientos intensos. Su tejido transpirable proporciona máxima comodidad y libertad de movimiento durante cualquier actividad física.",
+    "material_descripcion": "Tela ultraligera de secado rápido",
     "image": "https://hackmd.io/_uploads/HyIbg6Ty1l.png",
     "color": [
       {
         "nombre": "negro",
-        "codigo": "#000"
+        "codigo": "#000000"
       },
       {
-        "nombre": "azul",
-        "codigo": "#0aa"
+        "nombre": "azul marino",
+        "codigo": "#0a1a5e"
       },
       {
         "nombre": "jade",
-        "codigo": "#baba"
+        "codigo": "#00a86b"
       },
       {
         "nombre": "rojo",
-        "codigo": "#aaa"
+        "codigo": "#ff0000"
       },
       {
         "nombre": "acero",
-        "codigo": "#af45"
+        "codigo": "#71797E"
       },
       {
         "nombre": "blanco",
@@ -32,7 +33,19 @@
       },
       {
         "nombre": "rosado",
-        "codigo": "#cad"
+        "codigo": "#ffb6c1"
+      },
+      {
+        "nombre": "verde militar",
+        "codigo": "#4b5320"
+      },
+      {
+        "nombre": "gris",
+        "codigo": "#808080"
+      },
+      {
+        "nombre": "amarillo",
+        "codigo": "#ffff00"
       }
     ],
     "Talla": [
@@ -41,27 +54,44 @@
       "L",
       "XL"
     ],
-    "precio": 50,
+    "precio": 29.99,
     "stock": 150
   },
   {
     "id": 1,
     "category": "buzo",
     "modelo": "Short Tela mojada",
-    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "descripcion": "Diseño moderno con materiales de última generación que ofrecen un secado ultrarrápido. Ideal para deportes acuáticos y actividades al aire libre donde la comodidad y la funcionalidad son esenciales.",
+    "material_descripcion": "Tejido técnico de secado veloz",
     "image": "https://hackmd.io/_uploads/HyIbg6Ty1l.png",
     "color": [
       {
         "nombre": "negro",
-        "codigo": "#ffffff"
+        "codigo": "#000000"
       },
       {
         "nombre": "blanco",
         "codigo": "#ffffff"
       },
       {
-        "nombre": "azul",
-        "codigo": "#ffffff"
+        "nombre": "azul celeste",
+        "codigo": "#007fff"
+      },
+      {
+        "nombre": "verde lima",
+        "codigo": "#32cd32"
+      },
+      {
+        "nombre": "naranja",
+        "codigo": "#ffa500"
+      },
+      {
+        "nombre": "morado",
+        "codigo": "#800080"
+      },
+      {
+        "nombre": "turquesa",
+        "codigo": "#40e0d0"
       }
     ],
     "Talla": [
@@ -70,7 +100,7 @@
       "L",
       "XL"
     ],
-    "precio": 50,
+    "precio": 29.99,
     "stock": 150
   },
   {
@@ -78,27 +108,28 @@
     "category": "short",
     "modelo": "Short Poliadidas",
     "descripcion": "Sumérgete en el confort y el estilo atlético con nuestro short deportivo de poliéster, diseñado para llevar tus entrenamientos al siguiente nivel. Fabricado con un tejido de poliéster de alta calidad, este short no solo ofrece un ajuste ceñido y cómodo, sino que también proporciona una libertad de movimiento sin restricciones.",
+    "material_descripcion": "Poliéster premium de alta resistencia",
     "image": "https://i.imgur.com/db5W6Pf.png",
     "color": [
       {
         "nombre": "negro",
-        "codigo": "#000"
+        "codigo": "#000000"
       },
       {
-        "nombre": "azul",
-        "codigo": "#0aa"
+        "nombre": "azul cobalto",
+        "codigo": "#0047ab"
       },
       {
         "nombre": "jade",
-        "codigo": "#baba"
+        "codigo": "#00a86b"
       },
       {
-        "nombre": "rojo",
-        "codigo": "#aaa"
+        "nombre": "rojo vino",
+        "codigo": "#8b0000"
       },
       {
         "nombre": "acero",
-        "codigo": "#af45"
+        "codigo": "#71797E"
       },
       {
         "nombre": "blanco",
@@ -106,7 +137,15 @@
       },
       {
         "nombre": "rosado",
-        "codigo": "#cad"
+        "codigo": "#ffb6c1"
+      },
+      {
+        "nombre": "verde oliva",
+        "codigo": "#556b2f"
+      },
+      {
+        "nombre": "gris oscuro",
+        "codigo": "#404040"
       }
     ],
     "Talla": [
@@ -115,27 +154,48 @@
       "L",
       "XL"
     ],
-    "precio": 50,
+    "precio": 29.99,
     "stock": 150
   },
   {
     "id": 3,
     "category": "short",
     "modelo": "Short Poliadidas",
-    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "descripcion": "Shorts deportivos confeccionados en poliéster de alta resistencia. Diseñados para atletas que buscan rendimiento y estilo. Incluye bolsillos laterales y cintura elástica con cordón ajustable para un ajuste perfecto durante el ejercicio.",
+    "material_descripcion": "Poliéster duradero y transpirable",
     "image": "https://i.imgur.com/db5W6Pf.png",
     "color": [
       {
         "nombre": "negro",
-        "codigo": "#ffffff"
+        "codigo": "#000000"
       },
       {
         "nombre": "blanco",
         "codigo": "#ffffff"
       },
       {
-        "nombre": "azul",
-        "codigo": "#ffffff"
+        "nombre": "azul marino",
+        "codigo": "#000080"
+      },
+      {
+        "nombre": "gris claro",
+        "codigo": "#d3d3d3"
+      },
+      {
+        "nombre": "rojo intenso",
+        "codigo": "#cc0000"
+      },
+      {
+        "nombre": "verde bosque",
+        "codigo": "#228b22"
+      },
+      {
+        "nombre": "carbón",
+        "codigo": "#2c3539"
+      },
+      {
+        "nombre": "mostaza",
+        "codigo": "#ffdb58"
       }
     ],
     "Talla": [
@@ -144,27 +204,52 @@
       "L",
       "XL"
     ],
-    "precio": 50,
+    "precio": 29.99,
     "stock": 150
   },
   {
     "id": 4,
     "category": "short",
     "modelo": "Short FeshTerry",
-    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "descripcion": "Short premium elaborado con tela terry fresca y absorbente. Su textura suave contra la piel y su excelente elasticidad te acompañarán en tus rutinas de ejercicio o momentos de descanso, proporcionando una sensación de frescura durante todo el día.",
+    "material_descripcion": "Tela terry suave y absorbente",
     "image": "https://i.imgur.com/WzEWw5l.png",
     "color": [
       {
         "nombre": "negro",
-        "codigo": "#ffffff"
+        "codigo": "#000000"
       },
       {
         "nombre": "blanco",
         "codigo": "#ffffff"
       },
       {
-        "nombre": "azul",
-        "codigo": "#ffffff"
+        "nombre": "azul royal",
+        "codigo": "#4169e1"
+      },
+      {
+        "nombre": "gris melange",
+        "codigo": "#b4b4b4"
+      },
+      {
+        "nombre": "verde menta",
+        "codigo": "#98fb98"
+      },
+      {
+        "nombre": "beige",
+        "codigo": "#f5f5dc"
+      },
+      {
+        "nombre": "salmón",
+        "codigo": "#fa8072"
+      },
+      {
+        "nombre": "burdeos",
+        "codigo": "#800020"
+      },
+      {
+        "nombre": "lila",
+        "codigo": "#c8a2c8"
       }
     ],
     "Talla": [
@@ -173,27 +258,48 @@
       "L",
       "XL"
     ],
-    "precio": 50,
+    "precio": 50.99,
     "stock": 150
   },
   {
     "id": 5,
     "category": "short",
     "modelo": "Short FeshTerry",
-    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "descripcion": "Innovador short con material terry que combina ligereza y durabilidad. Su diseño versátil permite usarlo tanto para actividades deportivas como para el día a día. Con acabados de primera calidad y costuras reforzadas que garantizan su durabilidad.",
+    "material_descripcion": "Terry liviano con costuras reforzadas",
     "image": "https://i.imgur.com/WzEWw5l.png",
     "color": [
       {
         "nombre": "negro",
-        "codigo": "#ffffff"
+        "codigo": "#000000"
       },
       {
         "nombre": "blanco",
         "codigo": "#ffffff"
       },
       {
-        "nombre": "azul",
-        "codigo": "#ffffff"
+        "nombre": "azul petróleo",
+        "codigo": "#005f69"
+      },
+      {
+        "nombre": "coral",
+        "codigo": "#ff7f50"
+      },
+      {
+        "nombre": "verde agua",
+        "codigo": "#7fffd4"
+      },
+      {
+        "nombre": "camel",
+        "codigo": "#c19a6b"
+      },
+      {
+        "nombre": "granate",
+        "codigo": "#7b0000"
+      },
+      {
+        "nombre": "caqui",
+        "codigo": "#c3b091"
       }
     ],
     "Talla": [
@@ -202,27 +308,56 @@
       "L",
       "XL"
     ],
-    "precio": 50,
+    "precio": 50.99,
     "stock": 150
   },
   {
     "id": 6,
-    "category": "buzo",
-    "modelo": "jgfjkdsgfksd",
-    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "category": "buzaao",
+    "modelo": "Buzo Deportivo",
+    "descripcion": "Buzo deportivo con tejido de alta tecnología que mantiene el calor corporal mientras evacua la humedad. Perfecto para entrenamientos en climas fríos, con bolsillos frontales y capucha ajustable para mayor protección.",
+    "material_descripcion": "Tejido térmico regulador de humedad",
     "image": "https://hackmd.io/_uploads/HyIbg6Ty1l.png",
     "color": [
       {
         "nombre": "negro",
-        "codigo": "#ffffff"
+        "codigo": "#000000"
       },
       {
         "nombre": "blanco",
         "codigo": "#ffffff"
       },
       {
-        "nombre": "azul",
-        "codigo": "#ffffff"
+        "nombre": "azul marino",
+        "codigo": "#000080"
+      },
+      {
+        "nombre": "gris oscuro",
+        "codigo": "#404040"
+      },
+      {
+        "nombre": "verde botella",
+        "codigo": "#006400"
+      },
+      {
+        "nombre": "ciruela",
+        "codigo": "#673147"
+      },
+      {
+        "nombre": "burgundy",
+        "codigo": "#800020"
+      },
+      {
+        "nombre": "índigo",
+        "codigo": "#4b0082"
+      },
+      {
+        "nombre": "marrón",
+        "codigo": "#654321"
+      },
+      {
+        "nombre": "terracota",
+        "codigo": "#e2725b"
       }
     ],
     "Talla": [
@@ -231,27 +366,44 @@
       "L",
       "XL"
     ],
-    "precio": 50,
+    "precio": 504.99,
     "stock": 150
   },
   {
     "id": 7,
     "category": "buzo",
-    "modelo": "jgfjkdsgfksd",
-    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "modelo": "Buzo Essential",
+    "descripcion": "Buzo esencial para completar tu guardarropa deportivo. Confeccionado con una mezcla de algodón y poliéster que brinda calidez y comodidad. Ideal para tus sesiones de entrenamiento o para un look casual con estilo.",
+    "material_descripcion": "Mezcla algodón-poliéster cálido y cómodo",
     "image": "https://hackmd.io/_uploads/HyIbg6Ty1l.png",
     "color": [
       {
         "nombre": "negro",
-        "codigo": "#ffffff"
+        "codigo": "#000000"
       },
       {
         "nombre": "blanco",
         "codigo": "#ffffff"
       },
       {
-        "nombre": "azul",
-        "codigo": "#ffffff"
+        "nombre": "azul navy",
+        "codigo": "#000080"
+      },
+      {
+        "nombre": "gris melange",
+        "codigo": "#b4b4b4"
+      },
+      {
+        "nombre": "borgoña",
+        "codigo": "#800020"
+      },
+      {
+        "nombre": "verde musgo",
+        "codigo": "#8a9a5b"
+      },
+      {
+        "nombre": "mostaza",
+        "codigo": "#ffdb58"
       }
     ],
     "Talla": [
@@ -260,27 +412,48 @@
       "L",
       "XL"
     ],
-    "precio": 50,
+    "precio": 504.99,
     "stock": 150
   },
   {
     "id": 8,
     "category": "polo",
-    "modelo": "jgfjkdsgfksd",
-    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "modelo": "Polo Técnico",
+    "descripcion": "Polo técnico diseñado para deportistas exigentes. Su tejido transpirable de secado rápido te mantiene fresco durante la actividad física. El corte ergonómico proporciona libertad de movimiento y máximo confort en cada entrenamiento.",
+    "material_descripcion": "Tejido técnico de secado rápido",
     "image": "https://i.imgur.com/liVyTIt.png",
     "color": [
       {
         "nombre": "negro",
-        "codigo": "#ffffff"
+        "codigo": "#000000"
       },
       {
         "nombre": "blanco",
         "codigo": "#ffffff"
       },
       {
-        "nombre": "azul",
-        "codigo": "#ffffff"
+        "nombre": "azul eléctrico",
+        "codigo": "#0047ab"
+      },
+      {
+        "nombre": "rojo fuego",
+        "codigo": "#ff2400"
+      },
+      {
+        "nombre": "verde lima",
+        "codigo": "#32cd32"
+      },
+      {
+        "nombre": "amarillo neón",
+        "codigo": "#dfff00"
+      },
+      {
+        "nombre": "naranja",
+        "codigo": "#ffa500"
+      },
+      {
+        "nombre": "violeta",
+        "codigo": "#8a2be2"
       }
     ],
     "Talla": [
@@ -289,27 +462,52 @@
       "L",
       "XL"
     ],
-    "precio": 50,
+    "precio": 29.99,
     "stock": 150
   },
   {
     "id": 9,
     "category": "polo",
-    "modelo": "jgfjkdsgfksd",
-    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "modelo": "Polo Performance",
+    "descripcion": "Polo deportivo con tecnología anti-humedad que mantiene tu piel seca durante los entrenamientos más intensos. Su diseño permite una ventilación óptima y su material elástico se adapta perfectamente a tus movimientos.",
+    "material_descripcion": "Tela anti-humedad elástica y ventilada",
     "image": "https://i.imgur.com/liVyTIt.png",
     "color": [
       {
         "nombre": "negro",
-        "codigo": "#ffffff"
+        "codigo": "#000000"
       },
       {
         "nombre": "blanco",
         "codigo": "#ffffff"
       },
       {
-        "nombre": "azul",
-        "codigo": "#ffffff"
+        "nombre": "azul cobalto",
+        "codigo": "#0047ab"
+      },
+      {
+        "nombre": "antracita",
+        "codigo": "#293133"
+      },
+      {
+        "nombre": "verde esmeralda",
+        "codigo": "#50c878"
+      },
+      {
+        "nombre": "plata",
+        "codigo": "#c0c0c0"
+      },
+      {
+        "nombre": "magenta",
+        "codigo": "#ff00ff"
+      },
+      {
+        "nombre": "turquesa",
+        "codigo": "#40e0d0"
+      },
+      {
+        "nombre": "coral",
+        "codigo": "#ff7f50"
       }
     ],
     "Talla": [
@@ -318,27 +516,48 @@
       "L",
       "XL"
     ],
-    "precio": 50,
+    "precio": 29.99,
     "stock": 150
   },
   {
     "id": 10,
     "category": "polo",
-    "modelo": "jgfjkdsgfksd",
-    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "modelo": "Polo Sport Elite",
+    "descripcion": "Nuestro polo Sport Elite combina estilo y funcionalidad con un tejido premium que proporciona confort durante todo el día. Los detalles de diseño y el ajuste perfecto lo convierten en una prenda versátil para cualquier actividad deportiva.",
+    "material_descripcion": "Algodón pima con acabado premium",
     "image": "https://i.imgur.com/liVyTIt.png",
     "color": [
       {
         "nombre": "negro",
-        "codigo": "#ffffff"
+        "codigo": "#000000"
       },
       {
         "nombre": "blanco",
         "codigo": "#ffffff"
       },
       {
-        "nombre": "azul",
-        "codigo": "#ffffff"
+        "nombre": "azul marino",
+        "codigo": "#000080"
+      },
+      {
+        "nombre": "gris claro",
+        "codigo": "#d3d3d3"
+      },
+      {
+        "nombre": "burdeos",
+        "codigo": "#800020"
+      },
+      {
+        "nombre": "verde oliva",
+        "codigo": "#556b2f"
+      },
+      {
+        "nombre": "beige",
+        "codigo": "#f5f5dc"
+      },
+      {
+        "nombre": "celeste",
+        "codigo": "#b2ffff"
       }
     ],
     "Talla": [
@@ -347,27 +566,56 @@
       "L",
       "XL"
     ],
-    "precio": 50,
+    "precio": 50.99,
     "stock": 150
   },
   {
     "id": 11,
     "category": "polo",
-    "modelo": "jgfjkdsgfksd",
-    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "modelo": "Polo Training Pro",
+    "descripcion": "Polo de alto rendimiento diseñado específicamente para entrenamientos intensos. Su tejido técnico controla la temperatura corporal y elimina la humedad, mientras que su corte deportivo te proporciona máxima libertad de movimiento.",
+    "material_descripcion": "Tejido termorregulador de alto rendimiento",
     "image": "https://i.imgur.com/liVyTIt.png",
     "color": [
       {
         "nombre": "negro",
-        "codigo": "#ffffff"
+        "codigo": "#000000"
       },
       {
         "nombre": "blanco",
         "codigo": "#ffffff"
       },
       {
-        "nombre": "azul",
-        "codigo": "#ffffff"
+        "nombre": "azul navy",
+        "codigo": "#000080"
+      },
+      {
+        "nombre": "rojo intenso",
+        "codigo": "#cc0000"
+      },
+      {
+        "nombre": "verde militar",
+        "codigo": "#4b5320"
+      },
+      {
+        "nombre": "gris carbón",
+        "codigo": "#2c3539"
+      },
+      {
+        "nombre": "amarillo sol",
+        "codigo": "#ffdf00"
+      },
+      {
+        "nombre": "naranja vibrante",
+        "codigo": "#ff5f1f"
+      },
+      {
+        "nombre": "morado",
+        "codigo": "#800080"
+      },
+      {
+        "nombre": "azul rey",
+        "codigo": "#4169e1"
       }
     ],
     "Talla": [
@@ -376,27 +624,44 @@
       "L",
       "XL"
     ],
-    "precio": 50,
+    "precio": 29.99,
     "stock": 150
   },
   {
     "id": 12,
     "category": "buzo",
-    "modelo": "jgfjkdsgfksd",
-    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "modelo": "Buzo Comfort Plus",
+    "descripcion": "Buzo confortable con interior afelpado que proporciona un calor excepcional en días fríos. Su diseño moderno y funcional incluye puños y cintura elásticos para un ajuste perfecto que mantiene el calor corporal.",
+    "material_descripcion": "Algodón afelpado con interior térmico",
     "image": "https://hackmd.io/_uploads/HyIbg6Ty1l.png",
     "color": [
       {
         "nombre": "negro",
-        "codigo": "#ffffff"
+        "codigo": "#000000"
       },
       {
         "nombre": "blanco",
         "codigo": "#ffffff"
       },
       {
-        "nombre": "azul",
-        "codigo": "#ffffff"
+        "nombre": "azul marino",
+        "codigo": "#000080"
+      },
+      {
+        "nombre": "gris jaspeado",
+        "codigo": "#b2beb5"
+      },
+      {
+        "nombre": "verde pino",
+        "codigo": "#01796f"
+      },
+      {
+        "nombre": "camel",
+        "codigo": "#c19a6b"
+      },
+      {
+        "nombre": "borgoña",
+        "codigo": "#800020"
       }
     ],
     "Talla": [
@@ -405,27 +670,56 @@
       "L",
       "XL"
     ],
-    "precio": 50,
+    "precio": 29.99,
     "stock": 150
   },
   {
     "id": 13,
     "category": "buzo",
-    "modelo": "jgfjkdsgfksd",
-    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "modelo": "Buzo Urban Sport",
+    "descripcion": "Buzo urbano que combina estilo casual con prestaciones deportivas. Su material de alta calidad ofrece durabilidad y confort, mientras que su diseño versátil te permite lucirlo tanto en el gimnasio como en tus salidas diarias.",
+    "material_descripcion": "Algodón urbano con fibras elásticas",
     "image": "https://i.imgur.com/liVyTIt.png",
     "color": [
       {
         "nombre": "negro",
-        "codigo": "#ffffff"
+        "codigo": "#000000"
       },
       {
         "nombre": "blanco",
         "codigo": "#ffffff"
       },
       {
-        "nombre": "azul",
-        "codigo": "#ffffff"
+        "nombre": "azul acero",
+        "codigo": "#4682b4"
+      },
+      {
+        "nombre": "gris marengo",
+        "codigo": "#4a4e4d"
+      },
+      {
+        "nombre": "verde caqui",
+        "codigo": "#6b8e23"
+      },
+      {
+        "nombre": "granate",
+        "codigo": "#7b0000"
+      },
+      {
+        "nombre": "mostaza",
+        "codigo": "#ffdb58"
+      },
+      {
+        "nombre": "terracota",
+        "codigo": "#e2725b"
+      },
+      {
+        "nombre": "azul índigo",
+        "codigo": "#4b0082"
+      },
+      {
+        "nombre": "berenjena",
+        "codigo": "#614051"
       }
     ],
     "Talla": [
@@ -434,27 +728,48 @@
       "L",
       "XL"
     ],
-    "precio": 50,
+    "precio": 29.99,
     "stock": 150
   },
   {
     "id": 14,
     "category": "polo",
-    "modelo": "jgfjkdsgfksd",
-    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "modelo": "Polo Sport Classic",
+    "descripcion": "Polo clásico deportivo con un toque contemporáneo. Fabricado con algodón de primera calidad que ofrece confort y durabilidad. Perfecto para lucir un estilo deportivo elegante tanto dentro como fuera del campo.",
+    "material_descripcion": "Algodón piqué de alta densidad",
     "image": "https://i.imgur.com/liVyTIt.png",
     "color": [
       {
         "nombre": "negro",
-        "codigo": "#ffffff"
+        "codigo": "#000000"
       },
       {
         "nombre": "blanco",
         "codigo": "#ffffff"
       },
       {
-        "nombre": "azul",
-        "codigo": "#ffffff"
+        "nombre": "azul marino",
+        "codigo": "#000080"
+      },
+      {
+        "nombre": "rojo clásico",
+        "codigo": "#cc0000"
+      },
+      {
+        "nombre": "verde botella",
+        "codigo": "#006400"
+      },
+      {
+        "nombre": "gris plata",
+        "codigo": "#c0c0c0"
+      },
+      {
+        "nombre": "rosa palo",
+        "codigo": "#fadadd"
+      },
+      {
+        "nombre": "amarillo pastel",
+        "codigo": "#fdfd96"
       }
     ],
     "Talla": [
@@ -463,27 +778,52 @@
       "L",
       "XL"
     ],
-    "precio": 50,
+    "precio": 29.99,
     "stock": 150
   },
   {
     "id": 15,
     "category": "polo",
-    "modelo": "jgfjkdsgfksd",
-    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "modelo": "Polo Tech Dry",
+    "descripcion": "Polo técnico con avanzada tecnología de secado rápido que mantiene tu cuerpo seco y fresco durante la actividad física. Su tejido ligero y transpirable ofrece comodidad excepcional en los días más calurosos.",
+    "material_descripcion": "Microfibra transpirable de secado ultrarrápido",
     "image": "https://i.imgur.com/liVyTIt.png",
     "color": [
       {
         "nombre": "negro",
-        "codigo": "#ffffff"
+        "codigo": "#000000"
       },
       {
         "nombre": "blanco",
         "codigo": "#ffffff"
       },
       {
-        "nombre": "azul",
-        "codigo": "#ffffff"
+        "nombre": "azul eléctrico",
+        "codigo": "#0047ab"
+      },
+      {
+        "nombre": "gris medio",
+        "codigo": "#808080"
+      },
+      {
+        "nombre": "verde neón",
+        "codigo": "#39ff14"
+      },
+      {
+        "nombre": "naranja fluorescente",
+        "codigo": "#ff5f1f"
+      },
+      {
+        "nombre": "amarillo solar",
+        "codigo": "#fffd37"
+      },
+      {
+        "nombre": "turquesa brillante",
+        "codigo": "#00ffef"
+      },
+      {
+        "nombre": "fucsia",
+        "codigo": "#ff00ff"
       }
     ],
     "Talla": [
@@ -492,27 +832,52 @@
       "L",
       "XL"
     ],
-    "precio": 50,
+    "precio": 29.99,
     "stock": 150
   },
   {
     "id": 16,
     "category": "polo",
-    "modelo": "jgfjkdsgfksd",
-    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "modelo": "Polo Fitness Pro",
+    "descripcion": "Polo especializado para entrenamientos de alta intensidad. Su construcción con paneles de ventilación estratégicamente ubicados maximiza la circulación del aire. El tejido antibacteriano previene malos olores incluso en los entrenamientos más exigentes.",
+    "material_descripcion": "Tejido antibacteriano con ventilación avanzada",
     "image": "https://i.imgur.com/liVyTIt.png",
     "color": [
       {
         "nombre": "negro",
-        "codigo": "#ffffff"
+        "codigo": "#000000"
       },
       {
         "nombre": "blanco",
         "codigo": "#ffffff"
       },
       {
-        "nombre": "azul",
-        "codigo": "#ffffff"
+        "nombre": "azul aero",
+        "codigo": "#7cb9e8"
+      },
+      {
+        "nombre": "rojo deportivo",
+        "codigo": "#e32636"
+      },
+      {
+        "nombre": "verde deportivo",
+        "codigo": "#008000"
+      },
+      {
+        "nombre": "gris ratón",
+        "codigo": "#8b8589"
+      },
+      {
+        "nombre": "aqua",
+        "codigo": "#00ffff"
+      },
+      {
+        "nombre": "lima neón",
+        "codigo": "#c8ff00"
+      },
+      {
+        "nombre": "púrpura intenso",
+        "codigo": "#7f00ff"
       }
     ],
     "Talla": [
@@ -521,27 +886,48 @@
       "L",
       "XL"
     ],
-    "precio": 50,
+    "precio": 29.99,
     "stock": 150
   },
   {
     "id": 17,
     "category": "casaca",
-    "modelo": "jgfjkdsgfksd",
-    "descripcion": "hol a spy un short slfhsld sfns lklk  paw jrpsjfsp",
+    "modelo": "Casaca Deportiva Premium",
+    "descripcion": "Casaca deportiva premium confeccionada con materiales de alta calidad que combinan resistencia y ligereza. Su diseño ergonómico se adapta perfectamente al cuerpo proporcionando confort y protección en cualquier actividad al aire libre.",
+    "material_descripcion": "Poliamida resistente con forro térmico",
     "image": "https://i.imgur.com/liVyTIt.png",
     "color": [
       {
         "nombre": "negro",
-        "codigo": "#ffffff"
+        "codigo": "#000000"
       },
       {
         "nombre": "blanco",
         "codigo": "#ffffff"
       },
       {
-        "nombre": "azul",
-        "codigo": "#ffffff"
+        "nombre": "azul navy",
+        "codigo": "#000080"
+      },
+      {
+        "nombre": "rojo ferrari",
+        "codigo": "#ff2800"
+      },
+      {
+        "nombre": "verde cazador",
+        "codigo": "#355e3b"
+      },
+      {
+        "nombre": "gris plomo",
+        "codigo": "#708090"
+      },
+      {
+        "nombre": "naranja mandarina",
+        "codigo": "#f28500"
+      },
+      {
+        "nombre": "azul hielo",
+        "codigo": "#99ffff"
       }
     ],
     "Talla": [
@@ -550,65 +936,6 @@
       "L",
       "XL"
     ],
-    "precio": 50,
+    "precio": 29.99,
     "stock": 150
-  },
-  {
-    "id": 18,
-    "category": "casaca",
-    "modelo": "Clasico - Material Wafer",
-    "descripcion": "Prenda perfecta para el deporte, como sencillo y de muy buena calidad.",
-    "image": "https://i.imgur.com/yHzA4u1.png",
-    "color": [
-      {
-        "nombre": "negro",
-        "codigo": "#ffffff"
-      },
-      {
-        "nombre": "blanco",
-        "codigo": "#ffffff"
-      },
-      {
-        "nombre": "azul",
-        "codigo": "#ffffff"
-      }
-    ],
-    "Talla": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "precio": 50,
-    "stock": 150
-  },
-  {
-    "id": 19,
-    "category": "casaca",
-    "modelo": "Clasico - Material Wafer",
-    "descripcion": "Prenda perfecta para el deporte, como sencillo y de muy buena calidad.",
-    "image": "https://i.imgur.com/yHzA4u1.png",
-    "color": [
-      {
-        "nombre": "negro",
-        "codigo": "#ffffff"
-      },
-      {
-        "nombre": "blanco",
-        "codigo": "#ffffff"
-      },
-      {
-        "nombre": "azul",
-        "codigo": "#ffffff"
-      }
-    ],
-    "Talla": [
-      "S",
-      "M",
-      "L",
-      "XL"
-    ],
-    "precio": 50,
-    "stock": 150
-  }
-]
+  }]

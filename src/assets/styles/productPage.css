@@ -3,6 +3,7 @@
 .container_product_selected{
     position: relative;
     width: 100%;
+    height: 90vh;
 }
 .image_product_selected{
     width: 300px;
@@ -12,35 +13,58 @@
     transform: translate(-50%, -50%);
 }
 
+.background_product_sale{
+    background-image: url(../images/background_wood2.png);
+    height: 90vh;
+}
+
 .grid{
     display: grid;
-    
-    
+    height: 100%;
 }
 .fondo_product_selected{
     width: 100%;
     max-height: 550px;
 }
-/******************************************************/
+/***********************  S A L E *******************************/
+
+
+.content_info  {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr; 
+    gap: 0px 0px; 
+    max-height: 450px;
+
+  }
+  .content_title_info { grid-area: 1 / 1 / 2 / 3; }
+  .content_precio { grid-area: 2 / 1 / 3 / 2; }
+  .content_talla { grid-area: 3 / 1 / 4 / 2; }
+  .content_color { grid-area: 4 / 1 / 5 / 3; }
+  .content_cant { grid-area: 2 / 2 / 4 / 3; }
+  .content_buttons { grid-area: 5 / 1 / 6 / 3; }
+  
 
 .content_info{
     color: #1C2A48 !important;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
+    padding: 20px;
+    background-color: #EBE1D7;
+    align-self: center;
+
 }
 
 .content_title_info{
     display: flex;
-    background-color: #F1F1F1;
+    column-gap: 20px;
     margin-bottom: 10px;
-    padding: 5%;
-    border-radius: 10px;
+   
+   
     
 }
 .text{
     display: flex;
     flex-direction: column;
+   
     color: #1C2A48;
     width: 80%;
 }
@@ -60,16 +84,22 @@
 .description_info{
     color: #1C2A48;
     font-weight: 300;
-    font-size: 13px;
+    font-size: 11px;
 }
 .content_precio{
-    background-color: #F1F1F1;
-    /* margin-top: 0px; */
+    
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
     gap: 10px;
-    padding: 5%;
-    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 800;
+   
+   
+}
+.content_precio span::before{
+    content: "S/";
+    font-size: small;
 }
 
 .column_label_precio{
@@ -99,19 +129,10 @@
 
 /*****************************COLOR*********************/
 
-.content_grid{
-    margin-top: 10px;
-    display: flex;
-    gap: 10px;
-    
-}
-.content_color_talla{
+
+.content_color{
     width: 80%;
     /* width: fit-content; */
-    background-color: #F1F1F1;
-    border-radius: 10px;
-    padding: 5%;
-    display: flex;
     flex-direction: column;
     gap: 30px;
 }
@@ -156,7 +177,8 @@
 
 
 .content_talla{
-    margin-top: 30px;
+    display: flex;
+    align-items: center;
 }
 
 .content_talla_select{
@@ -170,7 +192,7 @@
     width: 50px;
     height: 30px;
     border: 1px solid rgb(43, 42, 42);
-    border-radius: 5px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,17 +202,14 @@
 
 .tallaSelected{
    
-    font-weight: 800;
-    border: 2px solid rgb(32, 32, 32);
-    background-color: #ffffff;
+    font-weight: 500;
+    border: 2px solid #262C4A;
+    background-color: #262C4A;
+    color: #7B7D91;
 }
 
 /**************************BUTTON ****************************/
 .content_buttons{
-   
-    background-color: #F1F1F1;
-    border-radius: 10px;
-    padding: 5%;
     margin-top: 10px;
     display: flex;
     gap: 10px;
@@ -201,13 +220,15 @@
 .content_button{
     background: #262C4A;
     padding: 12px 20px;
-    width: fit-content;
+    width: 100%;
     color: #7B7D91;
     cursor: pointer;
-    display: flex;  
+    display: flex;
     justify-content: center;
     align-items: center;
     text-transform: capitalize;
+    max-height: 20px;
+    align-self: end;
 
 }
 .secondary{
@@ -223,21 +244,17 @@
     color: #7B7D91;
 }
 .content_cant{
-    width: 20%;
-    background-color: #F1F1F1;
-    border-radius: 10px;
     display: flex;
-    justify-content: center;
-    
+    justify-content: end;
+    align-items: start;
     
 
 
 }
 .content_quantity{
     overflow: hidden;
-    border-radius: 10px;
+   
     background-color: white;
-    align-self: center;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;

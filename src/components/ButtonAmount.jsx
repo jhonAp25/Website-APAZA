@@ -13,9 +13,9 @@ const ButtonAmount = ({quantity , setQuantity}) => {
 
   return (
     <div className='content_quantity'>
-        <div className='menos' onClick={()=>changeQuantity(false)} > <HiOutlineMinusSm size={20}/>   </div>
-        <div style={{padding: "30px 20px"}}>{quantity}</div>
         <div className='mas' onClick={()=>changeQuantity(true)}> <HiOutlinePlusSm size={20}/> </div>
+        <div style={{padding: "30px 20px"}}>{quantity}</div>
+        <div className='menos' onClick={()=>changeQuantity(false)} > <HiOutlineMinusSm size={20}/>   </div>
     </div>
   )
 }

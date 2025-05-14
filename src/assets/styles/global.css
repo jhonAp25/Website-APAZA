@@ -11,26 +11,3 @@ a{
     text-decoration: none !important;
 }
 
-@media (min-width: 768px) { 
-   .content_main{
-    max-width: 768px;
-    margin: 0 auto;
-   }
-   
-
-}
-@media (min-width: 1024px) {
-    .content_main{
-        max-width: 1024px;
-        margin: 0 auto;
-       }
-     
-}
-
-@media (min-width: 1280px) {
-    .content_main{
-        max-width: 1280px;
-        margin: 0 auto;
-       }
-    
-}

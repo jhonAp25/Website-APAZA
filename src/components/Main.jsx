@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
-import {main} from '../assets/styles/main.css';
+import  '../assets/styles/main.css';
+import  '../assets/styles/app.css';
 import SeccionCategoryProduct from './SeccionCategoryProduct';
 import database from  "../database/bd.json"
 
@@ -30,10 +31,10 @@ var categoriasRepetidas = countCategory(products, 'category');
 
 
   return (
-    <div style={{background : "#fff" }}>
+    <div  style={{background : "#fff" }}>
 
    
-        <div className='content_main' >
+        <div className='aaa content_main content' >
 
           { categoriasRepetidas.map(d =>(
                 <SeccionCategoryProduct title={d} data={products} />

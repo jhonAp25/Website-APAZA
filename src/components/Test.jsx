@@ -1,47 +1,80 @@
-import React, { useState } from 'react'
+import { useRef, useState } from 'react';
 import '../assets/styles/test.css'
 // https://i.imgur.com/yHzA4u1.png
 
-const Test = () => {
-    const [lupaStyle, setLupaStyle] = useState({
-        visibility: 'hidden',
-        left: 0,
-        top: 0,
-      });
-    
-      const handleMouseMove = (e) => {
-        setLupaStyle({
-          ...lupaStyle,
-          visibility: 'visible',
-          left: e.clientX - 50, // 50 es la mitad del tamaño de la lupa
-          top: e.clientY - 50,
-        });
-      };
-    
-      const handleMouseLeave = () => {
-        setLupaStyle({
-          ...lupaStyle,
-          visibility: 'hidden',
-        });
-      };
-    
-      return (
-        <div>
+
+const   Test= ({ src, zoom = 2 }) => {
+    const imgRef = useRef(null);
+    const magnifierRef = useRef(null);
+    const [showMagnifier, setShowMagnifier] = useState(false);
+  
+    const handleMouseMove = (e) => {
+      const img = imgRef.current;
+      const magnifier = magnifierRef.current;
+      if (!img || !magnifier) return;
+  
+      const { left, top, width, height } = img.getBoundingClientRect();
+      const x = e.clientX - left;
+      const y = e.clientY - top;
+  
+      // Mover la lupa
+      magnifier.style.left = `${x - magnifier.offsetWidth / 2}px`;
+      magnifier.style.top = `${y - magnifier.offsetHeight / 2}px`;
+  
+      // Ajustar la imagen de fondo dentro de la lupa
+      const backgroundX = (x / width) * 100;
+      const backgroundY = (y / height) * 100;
+      magnifier.style.backgroundPosition = `${backgroundX}% ${backgroundY}%`;
+    };
+  
+    const handleMouseEnter = () => {
+      setShowMagnifier(true);
+    };
+  
+    const handleMouseLeave = () => {
+      setShowMagnifier(false);
+    };
+  
+    return (
+      <div
+        className="magnifier-container"
+        onMouseMove={handleMouseMove}
+        onMouseEnter={handleMouseEnter}
+        onMouseLeave={handleMouseLeave}
+        style={{
+          position: 'relative',
+          overflow: 'hidden',
+          width: '400px', // Ajusta a tu tamaño deseado
+          height: '400px',
+        }}
+      >
+        <img
+          ref={imgRef}
+          src={src}
+          alt=""
+          style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+        />
+        {showMagnifier && (
           <div
-            className="imagen-container"
-            id="contenedorImagen"
-            onMouseMove={handleMouseMove}
-            onMouseLeave={handleMouseLeave}
-          >
-            <img
-              src="https://i.imgur.com/yHzA4u1.png" // Ajusta la ruta de la imagen
-              alt="Descripción de la imagen"
-              id="imagen"
-              className="imagen"
-            />
-            <div className="lupa" style={lupaStyle}></div>
-          </div>
-        </div>
-      );
-    }   
+            ref={magnifierRef}
+            className="magnifier"
+            style={{
+              position: 'absolute',
+              pointerEvents: 'none',
+              width: '120px',
+              height: '120px',
+              borderRadius: '50%',
+              backgroundImage: `url(${src})`,
+              backgroundRepeat: 'no-repeat',
+              backgroundSize: `${100 * zoom}% ${100 * zoom}%`, // <-- Aquí el zoom
+              border: '2px solid #000',
+              boxShadow: '0 0 5px rgba(0,0,0,0.3)',
+            }}
+          />
+        )}
+      </div>
+    );
+  };
+  
+  
 export default Test

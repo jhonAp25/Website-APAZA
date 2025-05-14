@@ -2,6 +2,8 @@ import React, { useState } from 'react'
 import { Link, useParams } from 'react-router-dom';
 
 import  "../assets/styles/categoryPage.css"
+import  "../assets/styles/app.css"
+import "../assets/styles/productPage.css"
 import CardProduct from '../components/CardProduct';
 import database from '../database/bd.json'
 
@@ -19,10 +21,10 @@ const CategoryPage = () => {
     </div>
 
     <div className='background_home'>
-      <div className='content_main content_product'>
+      <div className=' content_product content'>
     
             {productCategory.map(c=>(
-                <CardProduct data={c} />
+                <CardProduct products={c} />
               ))}
 
        
